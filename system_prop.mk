@@ -42,6 +42,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.cne.feature=1
+    persist.dpm.feature=11
 
 # Data modules
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -101,7 +102,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     mm.enable.smoothstreaming=true \
     use.qti.sw.alac.decoder=true \
     use.qti.sw.ape.decoder=true
-
+    
+# IMS
+persist.volte_enabled_by_hw=1
+persist.data.iwlan.enable=true
 
 # NITZ
 PRODUCT_PROPERTY_OVERRIDES += \
